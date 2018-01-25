@@ -1,0 +1,11 @@
+<view class="rechargeView">
+  <view class="intro">
+    <text class="reText">{{rechargeText}}</text>
+  </view>
+  <view class="QRcode">
+    <image class="qrcode" src="/image/qrcode.png" mode="aspectFit"></image>
+  </view>
+  <view class="backbtn">
+    <button class="backBtn" bindtap="jumpBack">{{btnText}}</button>
+  </view>
+</view>

@@ -1,0 +1,11 @@
+<view class="bsuccView">
+  <view class="bsu_container">
+    <icon type="{{bsuType}}" size="{{bsuSize}}" color="bsuColor"/>  
+  </view>
+  <view class="bsu_context">
+    <text class="textType">{{bsuText}}</text> 
+  </view>
+  <view class="bsu_signbtn">
+    <button class="signBtn" bindtap="jumpSign">{{bsubText}}</button>
+  </view>
+</view>

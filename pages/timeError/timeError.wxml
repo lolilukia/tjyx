@@ -1,0 +1,14 @@
+<view class="tErrorView">
+  <view class="tError_container">
+    <icon type="{{tErrorType}}" size="{{tErrorSize}}" color="tErrorColor"/> 
+  </view>
+  <view class="tError_context">
+    <text class="textType">{{tErrorText}}</text> 
+  </view>
+  <view class="tError_detail">
+    <text class="detailType">{{timeText}}</text> 
+  </view>
+  <view class="tError_signbtn">
+    <button class="retryBtn" bindtap="jumpRetry">{{retryText}}</button>
+  </view>
+</view>

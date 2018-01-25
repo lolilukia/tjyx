@@ -1,0 +1,19 @@
+<view class="hasSignView">
+  <view class="hasSign_container">
+    <icon type="{{hasSignType}}" size="{{hasSignSize}}" color="hasSignColor"/>  
+  </view>
+  <view class="hasSign_context">
+    <text class="textType">{{hasSignText}}</text> 
+  </view>
+  <view class="time_context">
+    <text class="timeType">{{timeText}}</text> 
+  </view>
+  <view class="order_context">
+    <text class="orderType">{{orderText}}</text> 
+  </view>
+  <view class="hasSign_signbtn">
+    <button class="signBtn" bindtap="jumpCheck">{{signText}}</button>
+    <button class="cancelBtn" bindtap="jumpCancel">{{cancelText}}</button>
+    <button class="backBtn" bindtap="jumpBack">{{backText}}</button>
+  </view>
+</view>

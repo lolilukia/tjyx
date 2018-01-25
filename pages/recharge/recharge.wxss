@@ -1,0 +1,22 @@
+.rechargeView{
+  align-items: center;
+  padding: 10%;
+  justify-content: center;
+}
+.intro{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.QRcode{
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.backBtn{
+  background-color: #62b900;
+  color: #fff;
+  margin-top: 10px;
+  width: 100%;
+}

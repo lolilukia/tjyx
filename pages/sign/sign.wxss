@@ -1,0 +1,36 @@
+.signView{
+  align-items: center;
+  padding: 10%;
+  justify-content: center;
+}
+.sign_container{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  color: #666;
+}
+.sign_context{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.sign_detail{
+  border: 1px solid #eee;
+  background-color: #eee;
+  border-radius: 4px;
+  justify-content: center;
+  height: 100px;
+  margin-top: 20px;
+}
+.signBtn{
+  background-color: #62b900;
+  color: #fff;
+  margin-top: 40px;
+  width: 100%;
+}
+.cancelBtn{
+  background-color: #ff0000;
+  color: #fff;
+  margin-top: 10px;
+  width: 100%;
+}

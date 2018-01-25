@@ -1,0 +1,11 @@
+<view class="cancelView">
+  <view class="cancel_container">
+    <icon type="{{cancelType}}" size="{{cancelSize}}" color="cancelColor"/>  
+  </view>
+  <view class="cancel_context">
+    <text class="textType">{{cancelText}}</text> 
+  </view>
+  <view class="cancel_signbtn">
+    <button class="backBtn" bindtap="jumpIndex">{{cancelBtnText}}</button>
+  </view>
+</view>

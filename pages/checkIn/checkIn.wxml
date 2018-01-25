@@ -1,0 +1,11 @@
+<view class="checkView">
+  <view class="check_container">
+    <icon type="{{checkType}}" size="{{checkSize}}" color="checkColor"/>  
+  </view>
+  <view class="check_context">
+    <text class="textType">{{checkText}}</text> 
+  </view>
+  <view class="check_signbtn">
+    <button class="backBtn" bindtap="jumpIndex">{{checkBtnText}}</button>
+  </view>
+</view>

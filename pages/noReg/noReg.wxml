@@ -1,0 +1,11 @@
+<view class="noregView">
+  <view class="group">
+    <icon type="{{iconType}}" size="{{iconSize}}" color="iconColor"/>  
+  </view>
+  <view class="context">
+    <text class="textType">{{text}}</text> 
+  </view>
+  <view class="backbtn">
+    <button class="backBtn" bindtap="jumpBack">{{btnText}}</button>
+  </view>
+</view>

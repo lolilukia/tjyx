@@ -1,0 +1,13 @@
+<view class="signsuView">
+  <view class="signsu_container">
+    <icon type="{{signsuType}}" size="{{signsuSize}}" color="signsuColor"/>  
+  </view>
+  <view class="signsu_context">
+    <text class="textType">{{signsuText}}</text> 
+  </view>
+  <view class="signsu_signbtn">
+    <button class="checkinBtn" bindtap="jumpCheck">{{checkText}}</button>
+    <button class="cancelBtn" bindtap="jumpCancel">{{cancelText}}</button>
+    <button class="backBtn" bindtap="jumpBack">{{backText}}</button>
+  </view>
+</view>

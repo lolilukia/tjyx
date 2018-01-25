@@ -1,0 +1,24 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/bind/bind",
+    "pages/noReg/noReg",
+    "pages/bsuccess/bsuccess",
+    "pages/timeError/timeError",
+    "pages/sign/sign",
+    "pages/signSuccess/signSuccess",
+    "pages/checkIn/checkIn",
+    "pages/cancel/cancel",
+    "pages/noBind/noBind",
+    "pages/hasSign/hasSign",
+    "pages/recharge/recharge",
+    "pages/noSign/noSign"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

@@ -1,0 +1,18 @@
+<view class="signView">
+  <view class="sign_context">
+    <text class="textType">{{signText}}</text> 
+  </view>
+  <view class="sign_detail">
+    <picker-view indicator-style="height: 50px;" style="width: 100%; height: 100px;" value="{{value}}" bindchange="bindChange">
+    <picker-view-column>
+      <view wx:for="{{times}}" style="line-height: 50px">{{item}}     </view>
+    </picker-view-column>
+  </picker-view>
+  </view>
+  <view class="sign_signbtn">
+    <button class="signBtn" bindtap="jumpSign">{{signBtnText}}</button>
+  </view>
+  <view class="sign_signbtn">
+    <button class="cancelBtn" bindtap="jumpCancel">{{cancelBtnText}}</button>
+  </view>
+</view>

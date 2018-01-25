@@ -1,0 +1,11 @@
+<view class="nobindView">
+  <view class="group">
+    <icon type="{{iconType}}" size="{{iconSize}}" color="iconColor"/>  
+  </view>
+  <view class="context">
+    <text class="textType">{{text}}</text> 
+  </view>
+  <view class="bindbtn">
+    <button class="bindBtn" bindtap="jumpBind">{{btnText}}</button>
+  </view>
+</view>

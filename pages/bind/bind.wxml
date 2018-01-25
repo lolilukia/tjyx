@@ -1,0 +1,20 @@
+<view class="bindView">
+  <text class="middle">账号绑定</text>
+  <view class="section">
+    <label>真实姓名：</label>
+    <input name="realName" bindinput="inputName" class="inputStyle" placeholder=""/>
+  </view>
+  <view class="section">
+    <label>学号：</label>
+    <input name="stuNumber" bindinput="inputNumber" class="inputStyle" placeholder=""/>
+  </view>
+  <view class="bindWarn">
+    <text class="warning">{{bindWarn}}</text>
+  </view>
+  <view class="section">
+    <button class="submitBind" bindtap="submitBind">提交绑定</button>
+  </view>
+  <view class="cancel_section">
+    <button class="cancelBind" bindtap="cancelBind">取消</button>
+  </view>
+</view>
