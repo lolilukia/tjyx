@@ -13,7 +13,11 @@
     "pages/noBind/noBind",
     "pages/hasSign/hasSign",
     "pages/recharge/recharge",
-    "pages/noSign/noSign"
+    "pages/noSign/noSign",
+    "pages/hasCheck/hasCheck",
+    "pages/signTimeError/signTimeError",
+    "pages/insufficient/insufficient",
+    "pages/orderError/orderError"
   ],
   "window":{
     "backgroundTextStyle":"light",

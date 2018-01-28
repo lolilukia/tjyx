@@ -3,7 +3,7 @@ Page({
     tErrorSize: 70,
     tErrorColor: 'green',
     tErrorType: 'waiting',
-    tErrorText: '请在以下规定时段报名',
+    tErrorText: '请在以下时段报名',
     retryText: '重试',
     timeText: ''
   },

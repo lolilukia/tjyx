@@ -1,0 +1,14 @@
+<view class="stErrorView">
+  <view class="stError_container">
+    <icon type="{{stErrorType}}" size="{{stErrorSize}}" color="stErrorColor"/> 
+  </view>
+  <view class="stError_context">
+    <text class="textType">{{stErrorText}}</text> 
+  </view>
+  <view class="stError_detail">
+    <text class="detailType">{{timeText}}</text> 
+  </view>
+  <view class="stError_signbtn">
+    <button class="retryBtn" bindtap="jumpRetry">{{retryText}}</button>
+  </view>
+</view>

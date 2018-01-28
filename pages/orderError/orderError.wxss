@@ -1,0 +1,28 @@
+.orderView{
+  align-items: center;
+  padding: 10%;
+  justify-content: center;
+}
+.group{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  color: #666;
+}
+.context{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.textType{
+  color: #666;
+  font-size: 20px;
+  display: block;
+  text-align: center;
+}
+.backBtn{
+  background-color: #62b900;
+  color: #fff;
+  margin-top: 40px;
+  width: 100%;
+}

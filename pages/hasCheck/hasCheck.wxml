@@ -1,0 +1,17 @@
+<view class="hasCheckView">
+  <view class="hasCheck_container">
+    <icon type="{{hasCheckType}}" size="{{hasCheckSize}}" color="hasCheckColor"/>  
+  </view>
+  <view class="hasCheck_context">
+    <text class="textType">{{hasCheckText}}</text> 
+  </view>
+  <view class="time_context">
+    <text class="timeType">{{timeText}}</text> 
+  </view>
+  <view class="order_context">
+    <text class="orderType">{{orderText}}</text> 
+  </view>
+  <view class="hasCheck_checkbtn">
+    <button class="backBtn" bindtap="jumpBack">{{backText}}</button>
+  </view>
+</view>

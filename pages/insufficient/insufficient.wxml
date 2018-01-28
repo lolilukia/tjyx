@@ -1,0 +1,11 @@
+<view class="insuffView">
+  <view class="group">
+    <icon type="{{iconType}}" size="{{iconSize}}" color="iconColor"/>  
+  </view>
+  <view class="context">
+    <text class="textType">{{text}}</text> 
+  </view>
+  <view class="rechargebtn">
+    <button class="rechargeBtn" bindtap="jumpRecharge">{{btnText}}</button>
+  </view>
+</view>
