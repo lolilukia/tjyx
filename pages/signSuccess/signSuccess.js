@@ -8,7 +8,21 @@ Page({
     cancelText: '退报名',
     backText: '取消',
     stunum: '',
-    returnCode: ''
+    returnCode: '',
+    restTime: '',
+    order: '',
+    noticeText: ''
+  },
+  onLoad: function (options) {
+    var that = this;
+    that.setData({
+      restTime: options.restTime,
+      order: options.order,
+    })
+    var tt = (('你剩余'.concat(that.data.restTime)).concat('次,排在第')).concat(that.data.order);
+    that.setData({
+      noticeText: tt,
+    })
   },
   jumpCheck: function () {
     var that = this;

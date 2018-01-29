@@ -5,6 +5,7 @@ Page({
     stErrorType: 'waiting',
     stErrorText: '请在以下时段签到',
     retryText: '重试',
+    backText: '返回',
     timeText: '',
     stunum: '',
     returnCode: ''
@@ -119,4 +120,9 @@ Page({
       }
     })
   },
+  jumpBack: function(){
+    wx.redirectTo({
+      url: '../index/index'
+    })
+  }
 })

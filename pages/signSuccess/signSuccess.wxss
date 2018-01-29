@@ -14,9 +14,20 @@
   display: flex;
   justify-content: center;
 }
+.notice_context{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
 .textType{
   color: #666;
   font-size: 20px;
+  display: block;
+  text-align: center;
+}
+.noticeType{
+  color: #aaa;
+  font-size: 14px;
   display: block;
   text-align: center;
 }

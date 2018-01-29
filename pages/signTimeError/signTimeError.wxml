@@ -11,4 +11,7 @@
   <view class="stError_signbtn">
     <button class="retryBtn" bindtap="jumpRetry">{{retryText}}</button>
   </view>
+  <view class="stError_signbtn">
+    <button class="backBtn" bindtap="jumpBack">{{backText}}</button>
+  </view>
 </view>

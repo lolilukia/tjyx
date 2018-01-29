@@ -5,6 +5,9 @@
   <view class="signsu_context">
     <text class="textType">{{signsuText}}</text> 
   </view>
+  <view class="notice_context">
+    <text class="noticeType">{{noticeText}}</text>  
+  </view>
   <view class="signsu_signbtn">
     <button class="checkinBtn" bindtap="jumpCheck">{{checkText}}</button>
     <button class="cancelBtn" bindtap="jumpCancel">{{cancelText}}</button>

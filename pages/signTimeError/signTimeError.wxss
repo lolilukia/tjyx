@@ -41,3 +41,9 @@
   margin-top: 40px;
   width: 100%;
 }
+.backBtn{
+  background-color: #aaaaaa;
+  color: #fff;
+  margin-top: 20px;
+  width: 100%;
+}
