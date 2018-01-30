@@ -1,9 +1,9 @@
 Page({
   data: {
-    hasSignSize: 70,
-    hasSignColor: 'green',
-    hasSignType: 'success',
-    hasSignText: '你已签到过，请于晚6点准时活动',
+    hasCheckSize: 70,
+    hasCheckColor: 'green',
+    hasCheckType: 'success',
+    hasCheckText: '你已签到',
     stunum: '',
     actTime: '',
     order: '',
