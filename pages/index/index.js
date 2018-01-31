@@ -11,12 +11,6 @@ Page({
     returnCode: '',
     actTime: ''
   },
-  //事件处理函数
-  bindViewTap: function() {
-    wx.navigateTo({
-      url: '../logs/logs'
-    })
-  },
   jumpToBind: function() {
     wx.redirectTo({
       url: '../bind/bind'
@@ -30,6 +24,7 @@ Page({
         that.setData({
           stunum: res.data
         })
+        console.log(that.data.stunum);
         wx.request({
           url: 'https://www.jdyx.club/tjyx_backend/web/index.php?r=activity/judge',
           method: 'POST',
@@ -74,6 +69,11 @@ Page({
             }
           }
         })
+      },
+      fail: function(){
+        wx.redirectTo({
+          url: '../noBind/noBind',
+        });
       }
     })
   },

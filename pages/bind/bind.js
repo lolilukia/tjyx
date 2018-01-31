@@ -55,6 +55,10 @@ Page({
                 wx.redirectTo({
                   url: '../bsuccess/bsuccess',
                 });
+                wx.setStorage({
+                  key: 'stuNum',
+                  data: that.data.stunum
+                })
               }
               else {
                 console.log(that.data.returnCode);

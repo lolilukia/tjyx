@@ -71,6 +71,11 @@ Page({
               }
             }
           })
+        },
+        fail: function () {
+          wx.redirectTo({
+            url: '../noBind/noBind',
+          });
         }
       })
     } 
