@@ -1,10 +1,6 @@
 <view class="bindView">
   <text class="middle">账号绑定</text>
   <view class="section">
-    <label>真实姓名：</label>
-    <input name="realName" bindinput="inputName" class="inputStyle" placeholder=""/>
-  </view>
-  <view class="section">
     <label>学号：</label>
     <input name="stuNumber" bindinput="inputNumber" class="inputStyle" placeholder=""/>
   </view>

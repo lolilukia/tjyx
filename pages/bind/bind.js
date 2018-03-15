@@ -2,13 +2,12 @@ const app = getApp()
 
 Page({
   data: {
-    realname: '',
     stunum: '',
     bindWarn: '',
     returnCode: ''
   },
   submitBind: function(e) {
-    if(this.data.realname == '' || this.data.stunum == ''){
+    if(this.data.stunum == ''){
       this.setData({
         bindWarn: '信息不能为空！'
       });
@@ -26,7 +25,6 @@ Page({
             },
             data: {
               code: res.code,
-              realname: that.data.realname,
               stunum: that.data.stunum,
               nickname: app.globalData.userInfo.nickName
             },
@@ -72,11 +70,6 @@ Page({
   cancelBind: function(e){
     wx.redirectTo({
       url: '../index/index',
-    });
-  },
-  inputName: function(e){
-    this.setData({
-      realname: e.detail.value
     });
   },
   inputNumber: function(e){

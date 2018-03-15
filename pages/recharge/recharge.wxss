@@ -20,3 +20,9 @@
   margin-top: 10px;
   width: 100%;
 }
+.saveBtn{
+  background-color: #aaaaaa;
+  color: #fff;
+  margin-top: 10px;
+  width: 100%;
+}
