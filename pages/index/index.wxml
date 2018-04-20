@@ -7,6 +7,7 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
+  <text class="version">v1.4.0</text>
   <view class="usermotto">
     <button class="bindAccount" bindtap="jumpToBind">绑定账号</button>
     <button class="signUp" bindtap="jumpToSign">报名活动</button>

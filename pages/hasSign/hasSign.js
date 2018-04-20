@@ -13,6 +13,7 @@ Page({
     signText: '签到',
     cancelText: '退报名',
     backText: '取消',
+    hiddenModal: true
   },
   onLoad: function (options) {
     var that = this;
@@ -27,6 +28,16 @@ Page({
     that.setData({
       timeText: tt,
       orderText: ot,
+    })
+  },
+  listenerButton: function () {
+    this.setData({
+      hiddenModal: !this.data.hiddenModal
+    })
+  },
+  listenerCancel: function () {
+    this.setData({
+      hiddenModal: true
     })
   },
   jumpCheck: function () {

@@ -1,4 +1,16 @@
 <view class="signsuView">
+  <view class= "section">
+    <button class="cancelBtn" bindtap="listenerButton">{{cancelText}}</button>
+  </view>
+  <modal 
+     title="退报名"
+     hidden="{{hiddenModal}}"
+     confirm-text="确定"
+     cancel-text="取消"
+     bindconfirm="jumpCancel"
+     bindcancel="listenerCancel" >
+     是否确认退报名？
+  </modal>
   <view class="signsu_container">
     <icon type="{{signsuType}}" size="{{signsuSize}}" color="signsuColor"/>  
   </view>
@@ -10,7 +22,6 @@
   </view>
   <view class="signsu_signbtn">
     <button class="checkinBtn" bindtap="jumpCheck">{{checkText}}</button>
-    <button class="cancelBtn" bindtap="jumpCancel">{{cancelText}}</button>
     <button class="backBtn" bindtap="jumpBack">{{backText}}</button>
   </view>
 </view>

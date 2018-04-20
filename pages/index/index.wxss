@@ -16,6 +16,11 @@
   color: #aaa;
 }
 
+.version{
+  margin-top: 5px;
+  color: #666;
+}
+
 .usermotto {
   margin-top: 100px;
 }

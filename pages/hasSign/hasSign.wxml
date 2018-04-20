@@ -1,4 +1,16 @@
 <view class="hasSignView">
+  <view class="section">
+    <button class="cancelBtn" bindtap="listenerButton">{{cancelText}}</button>
+  </view>
+  <modal 
+     title="退报名"
+     hidden="{{hiddenModal}}"
+     confirm-text="确定"
+     cancel-text="取消"
+     bindconfirm="jumpCancel"
+     bindcancel="listenerCancel" >
+     是否确认退报名？
+  </modal>
   <view class="hasSign_container">
     <icon type="{{hasSignType}}" size="{{hasSignSize}}" color="hasSignColor"/>  
   </view>
@@ -13,7 +25,6 @@
   </view>
   <view class="hasSign_signbtn">
     <button class="signBtn" bindtap="jumpCheck">{{signText}}</button>
-    <button class="cancelBtn" bindtap="jumpCancel">{{cancelText}}</button>
     <button class="backBtn" bindtap="jumpBack">{{backText}}</button>
   </view>
 </view>

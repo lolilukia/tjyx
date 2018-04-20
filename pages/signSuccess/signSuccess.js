@@ -11,7 +11,8 @@ Page({
     returnCode: '',
     restTime: '',
     order: '',
-    noticeText: ''
+    noticeText: '',
+    hiddenModal: true
   },
   onLoad: function (options) {
     var that = this;
@@ -22,6 +23,16 @@ Page({
     var tt = (('你剩余'.concat(that.data.restTime)).concat('次,排在第')).concat(that.data.order);
     that.setData({
       noticeText: tt,
+    })
+  },
+  listenerButton: function() {
+    this.setData({
+      hiddenModal: !this.data.hiddenModal
+    })  
+  },
+  listenerCancel: function(){
+    this.setData({
+      hiddenModal: true
     })
   },
   jumpCheck: function () {

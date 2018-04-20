@@ -49,3 +49,6 @@
   margin-top: 20px;
   width: 60%;
 }
+.section{
+  margin: 10px;
+}
